@@ -17,6 +17,12 @@ const commands = [
 	new SlashCommandBuilder()
 		.setName('user')
 		.setDescription('Replies with user info!'),
+	new SlashCommandBuilder()
+		.setName('messi')
+		.setDescription('Replies with troll ronaldo info!'),
+	new SlashCommandBuilder()
+		.setName('top-dev-to')
+		.setDescription('Replies with link to top of Dev.to page!'),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);
