@@ -1,7 +1,6 @@
 /* Example in Node.js ES6 using request-promise */
 
 require('dotenv').config();
-
 const rp = require('request-promise');
 const requestOptions = {
 	method: 'GET',

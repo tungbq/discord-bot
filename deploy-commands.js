@@ -23,6 +23,12 @@ const commands = [
 	new SlashCommandBuilder()
 		.setName('top-dev-to')
 		.setDescription('Replies with link to top of Dev.to page!'),
+	new SlashCommandBuilder()
+		.setName('random-user')
+		.setDescription('Get random name!'),
+	new SlashCommandBuilder()
+		.setName('football-today')
+		.setDescription('Get today matches from 24h.com.vn!'),
 ].map((command) => command.toJSON());
 
 const rest = new REST({ version: '9' }).setToken(token);
